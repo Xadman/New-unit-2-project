@@ -1,5 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &2097221322714201753
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746756534347037924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.46739918, y: 0.08559368, z: 0.6615112}
+  m_Center: {x: 0, y: 0.04279684, z: 0}
+--- !u!114 &-1959155179949757652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746756534347037924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d4f2128a5798ab40bfee90d1e7a0130, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &107086516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,6 +38,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+--- !u!114 &9113082061912518322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3746756534347037924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97789bc526915ed46a3c91e6dafa4902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3746756534347053922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22,7 +59,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 116614, guid: 9f063c5e5835cbd4b8dc54a6c0b45db4, type: 3}
       propertyPath: m_Name
-      value: Food_Steak_01
+      value: Food_Steak_01 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 442954, guid: 9f063c5e5835cbd4b8dc54a6c0b45db4, type: 3}
       propertyPath: m_RootOrder
