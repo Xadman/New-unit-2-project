@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3970232820353661313}
   - component: {fileID: 2090810567028775853}
   - component: {fileID: -8329698567676580944}
-  - component: {fileID: 210527767433091258}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Untagged
@@ -92,18 +91,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &-8329698567676580944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 210527767839213564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97789bc526915ed46a3c91e6dafa4902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &210527767433091258
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,7 +212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210527767839217820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.017, y: 0.13337907, z: 0.014}
+  m_LocalPosition: {x: 0.024, y: 0.13337907, z: 0.014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 210527767839558054}
